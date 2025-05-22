@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Archangelsk';
+    src: url(fonts/Archangelsk.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    width: 1920px;
+}
+.Header {
+    position: absolute;
+    width: 1920px;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+
+    background-image: url("images/Header.png");
+}
+
+.Logo {
+    position: absolute;
+    width: 296;
+height: 74;
+top: 20px;
+left: 320px;
+
+}
+
+.Rectangle {
+    position: absolute;
+    width: 624;
+height: 369;
+top: 631px;
+left: 976px;
+
+}
+
+
+.YouTube {
+    position: absolute;
+    width: 30;
+height: 30;
+top: 42px;
+left: 1221px;
+
+}
+
+.Vk {
+    position: absolute;
+    width: 30;
+height: 30;
+top: 42px;
+left: 1291px;
+
+}
+
+.Facebook {
+    position: absolute;
+    width: 30;
+height: 30;
+top: 42px;
+left: 1361px;
+
+}
+
+.Twitter {
+    position: absolute;
+    width: 30;
+height: 30;
+top: 42px;
+left: 1431px;
+
+}
+
+.Twich {
+    position: absolute;
+    width: 30;
+height: 30;
+top: 42px;
+left: 1501px;
+
+}
+
+.Instagram {
+    position: absolute;
+    width: 30;
+height: 30;
+top: 42px;
+left: 1570px;
+
+}
+
+.Header-txt {
+    position: absolute;
+    width: 484;
+height: 126;
+top: 701px;
+left: 1046px;
+
+font-family: Archangelsk;
+font-weight: 400;
+font-size: 62px;
+line-height: 63.3px;
+letter-spacing: 0%;
+}
+
+.Header-button {
+    position: absolute;
+    width: 272px;
+height: 78px;
+top: 852px;
+left: 1046px;
+padding-top: 19px;
+padding-right: 50px;
+padding-bottom: 19px;
+padding-left: 50px;
+gap: 10px;
+
+border: none;
+background-color: #000000;
+}
+
+.Header-button-txt {
+    position: absolute;
+    left: 50px;
+    top: 19px;
+    font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration: none;
+
+color: #F8F200;
+}
+
+/* Section */
+
+.Night-city {
+    position: absolute;
+    width: 996;
+height: 63;
+top: 1070px;
+left: 320px;
+
+font-family: Archangelsk;
+font-weight: 400;
+font-size: 62px;
+line-height: 63.3px;
+letter-spacing: 0%;
+
+color: #000000;
+}
+
+.About-game {
+    position: absolute;
+    width: 952;
+height: 125;
+top: 1200px;
+left: 320px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+letter-spacing: 0%;
+
+color: #999999;
+}
+
+.About-game-span {
+color: #5dade2;
+}
+
+.Rectangle-1 {
+    position: absolute;
+    width: 460;
+height: 196;
+top: 1400px;
+left: 320px;
+}
+
+.Rectangle-2 {
+    position: absolute;
+    width: 460;
+height: 196;
+top: 1630px;
+left: 320px;
+}
+
+.Rectangle-3 {
+    position: absolute;
+    width: 788;
+height: 424;
+top: 1400px;
+left: 812px;
+}
+
+/* section-1 */
+
+.Section-1 {
+    position: absolute;
+    width: 1920px;
+height: 884px;
+top: 1917px;
+
+background-color: #000000;
+}
+
+.Promotion {
+    position: absolute;
+    width: 132;
+height: 132;
+top: 85px;
+left: 320px;
+}
+
+.Play-win {
+    position: absolute;
+    width: 569;
+height: 63;
+top: 140px;
+left: 484px;
+
+font-family: Archangelsk;
+font-weight: 400;
+font-size: 62px;
+line-height: 63.3px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+}
+
+.Description {
+    position: absolute;
+    width: 952;
+height: 91;
+top: 240px;
+left: 320px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+}
+
+.Cyberpunk-span {
+    color: #5dade2;
+}
+
+.Xbox-span {
+    color: #5dade2;
+}
+
+.PlayStation-span {
+    color: #5dade2;
+}
+
+
+.PlayStation {
+    position: absolute;
+    width: 788;
+height: 456;
+top: 380px;
+left: 812px;
+}
+
+.Form-name {
+    position: absolute;
+    width: 131;
+height: 21;
+top: 420px;
+left: 320px;
+
+font-family: Roboto;
+font-weight: 300;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+}
+
+.input-name {
+    position: absolute;
+    width: 320px;
+top: 422px;
+left: 455px;
+font-family: Roboto;
+font-weight: 300;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+border: none;
+background-color: #000000;
+}
+
+.line-name {
+    position: absolute;
+    width: 460px;
+top: 454px;
+left: 320px;
+}
+
+.Form-mail {
+    position: absolute;
+    width: 93;
+height: 21;
+top: 490px;
+left: 320px;
+
+font-family: Roboto;
+font-weight: 300;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+}
+
+.input-mail {
+    position: absolute;
+    width: 320px;
+top: 491px;
+left: 455px;
+font-family: Roboto;
+font-weight: 300;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+border: none;
+background-color: #000000;
+}
+
+.line-mail {
+    position: absolute;
+    width: 460px;
+top: 524px;
+left: 320px;
+}
+
+#dropZone {
+    position: absolute;
+    width: 460px;
+    height: 120px;
+    top:485px;
+    left: 320px; 
+
+    border: 2px dashed #999999;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Drop-txt {
+    position: absolute;
+    width: 186px;
+height: 21px;
+top: 35px;
+left: 137px;
+
+font-family: Roboto;
+font-weight: 300;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: Auto;
+
+color: #FFFFFF;
+}
+
+.Drop-txt-2 {
+    position: absolute;
+    width: 186px;
+height: 21px;
+top: 60px;
+left: 137px;
+
+font-family: Roboto;
+font-weight: 300;
+font-size: 12px;
+line-height: 14.06px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+}
+
+#dropZone.dragover {
+    background: #222;
+    border-color: #fff;
+}
+
+.button-form {
+    position: absolute;
+    width: 192;
+height: 59;
+top: 710px;
+left: 320px;
+padding-top: 15px;
+padding-right: 50px;
+padding-bottom: 15px;
+padding-left: 50px;
+gap: 10px;
+
+border: none;
+background-color: #F8F200;
+}
+
+.button-form-txt {
+    font-family: Roboto;
+font-weight: 700;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+color: #000000;
+}
+
+.hidden-checkbox {
+    display: none;
+}
+
+.custom-checkbox {
+    position: absolute;
+    top: 700px;
+    left: 320px;   
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    cursor: pointer;
+}
+
+.checkmark {
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border: 1px solid #666;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkmark::after {
+    content: "✔";
+    font-size: 12px;
+    color: yellow;
+    display: none;
+}
+
+.hidden-checkbox:checked + .checkmark::after {
+    display: block;
+}
+
+.checkbox-txt {
+    position: absolute;
+    width: 256;
+height: 14;
+top: 774px;
+left: 344px;
+
+font-family: Roboto;
+font-weight: 300;
+font-size: 12px;
+line-height: 14.06px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+}
+
+.Blur-2 {
+    position: absolute;
+    width: 1920;
+height: 70;
+left: 0px;
+top: 884px;
+}
+
+/* section-2 */
+
+.section-2 {
+    position: absolute;
+    width: 1920px;
+height: 676px;
+top: 954px;
+
+background-color: #F8F200;
+}
+
+.HP-display {
+    position: absolute;
+    width: 624;
+height: 430;
+top: 70px;
+left: 320px;
+
+}
+
+.HPxCyberpunk {
+    position: absolute;
+    width: 540;
+top: 526px;
+left: 362px;
+border-width: 1px;
+
+}
+
+.Full-immersion {
+    position: absolute;
+    width: 560;
+height: 126;
+top: 70px;
+left: 976px;
+
+font-family: Archangelsk;
+font-weight: 400;
+font-size: 62px;
+line-height: 63.3px;
+letter-spacing: 0%;
+
+color: #000000;
+}
+
+.Display-description {
+    position: absolute;
+    width: 624;
+height: 125;
+top: 221px;
+left: 976px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+letter-spacing: 0%;
+
+color: #000000;
+}
+
+.display-list {
+    position: absolute;
+    width: 500px;
+height: 126;
+top: 371px;
+left: 1018px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+list-style-type: none;
+color: #000000;
+}
+
+.color_lens {
+    position: absolute;
+    width: 32;
+height: 32;
+top: 371px;
+left: 976px;
+}
+
+.auto_awesome {
+    position: absolute;
+    width: 32;
+height: 32;
+top: 418px;
+left: 976px;
+}
+
+.auto_awesome_motion {
+    position: absolute;
+    width: 32;
+height: 32;
+top: 465px;
+left: 976px;
+}
+
+.Bright-colors {
+    position: absolute;
+    top: 5px;
+}
+
+.Crystal-image {
+    position: absolute;
+    top: 53px;
+}
+
+.Fast-moves {
+    position: absolute;
+    top: 102px;
+}
+
+.section-2-button {
+    position: absolute;
+    width: 194;
+height: 59;
+top: 537px;
+left: 976px;
+padding-top: 15px;
+padding-right: 50px;
+padding-bottom: 15px;
+padding-left: 50px;
+gap: 10px;
+
+border: none;
+background-color: #000000;
+}
+
+.section-2-button-txt {
+    font-family: Roboto;
+font-weight: 700;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+text-decoration: none;
+
+color: #F8F200;
+}
+
+/* section-3 */
+
+.section-3 {
+    position: absolute;
+    width: 1920px;
+height: 717px;
+top: 1630px;
+
+background-color: #000000;
+}
+
+.Buy-game {
+    position: absolute;
+    width: 624;
+height: 126;
+top: 70px;
+left: 976px;
+
+font-family: Archangelsk;
+font-weight: 400;
+font-size: 62px;
+line-height: 63.3px;
+letter-spacing: 0%;
+
+color: #FFFFFF;
+}
+
+.Set {
+    position: absolute;
+    width: 224;
+height: 28;
+top: 221px;
+left: 976px;
+
+font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+line-height: 28.13px;
+letter-spacing: 0%;
+
+color: #5dade2;
+}
+
+.Game-list {
+    position: absolute;
+    width: 500px;
+height: 500px;
+top: 270px;
+left: 1018px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+list-style-type: none;
+
+color: #FFFFFF;
+}
+
+.Disks {position: absolute;
+    top: 0px;}
+
+.Code {position: absolute;
+    top: 45px;}
+
+.Directory {
+    position: absolute;
+    top: 92px;
+}
+
+.disk {
+    position: absolute;
+    width: 32;
+height: 32;
+top: 264px;
+left: 976px;
+}
+
+.Group {
+    position: absolute;
+    width: 32;
+height: 32;
+top: 311px;
+left: 976px;
+}
+
+.collections {
+    position: absolute;
+    width: 32;
+height: 32;
+top: 358px;
+left: 976px;
+}
+
+.Platform {
+    position: absolute;
+    width: 255;
+height: 28.150239944458008;
+top: 460px;
+left: 976px;
+
+font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+line-height: 28.13px;
+letter-spacing: 0%;
+
+color: #5dade2;
+}
+
+.Platforms {
+    position: absolute;
+    width: 319;
+height: 133.26828002929688;
+top: 513px;
+left: 976px;
+}
+
+/* footer */
+
+.footer {
+    position: absolute;
+    width: 1920px;
+height: 140px;
+top: 2347px;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 296;
+height: 74;
+top: 13px;
+left: 320px;
+}
+
+.footer-logo-2 {
+    position: absolute;
+    width: 296;
+height: 74;
+top: 13px;
+left: 648px;
+}
+
+.license {
+    position: absolute;
+    width: 84;
+height: 21;
+top: 40px;
+left: 1211px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+color: #000000;
+}
+
+.privacy-policy {
+    position: absolute;
+    width: 84;
+height: 21;
+top: 40px;
+left: 1327px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+line-height: 21.09px;
+letter-spacing: 0%;
+
+color: #000000;
+}
+
+.copyright {
+    position: absolute;
+    width: 1920px;
+height: 40px;
+top: 100px;
+background-color: #000000;
+}
+
+.copyright-txt {
+    position: absolute;
+    width: 253;
+height: 14;
+top: 13px;
+left: 834px;
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 14.06px;
+letter-spacing: 0%;
+text-align: center;
+
+color: #FFFFFF;
+}
